@@ -1,48 +1,44 @@
+# Digital Systems Repository by Soham Palkrit
 
-# Verilog Projects Repository
+## Introduction
 
-Welcome to my Verilog repository! This collection contains various Verilog modules and testbenches designed to help with understanding, simulating, and implementing digital logic circuits.
+This repository, created by **Soham Palkrit**, is dedicated to designing, simulating, and implementing digital systems using **Verilog HDL**. It contains several modules, testbenches, and simulation outputs that demonstrate fundamental concepts in digital design.
 
-## Contents
+The primary goal of this project is to create reusable, modular Verilog implementations while gaining a deeper understanding of digital electronics and hardware description languages.
 
-This repository includes the following files:
+## Objective
 
-- **Modules (.v)**: Verilog files containing the logic definitions for different digital circuits.
-- **Testbenches (\*_tb.v)**: Testbenches to validate and simulate the corresponding Verilog modules.
-- **Simulation Output (\*.vcd)**: Waveform files generated from simulations.
-- **Other Supporting Files**: Additional files that assist in simulations and testing.
+The primary objectives of this repository are:
+- To design and implement digital systems, focusing on clarity, reusability, and modularity.
+- To simulate and verify the functionality of each module through testbenches and waveform generation.
+- To explore concepts in combinational and sequential logic design, including arithmetic operations, multiplexing, and basic digital system simulations.
 
-### Examples of Modules in This Repository:
-- **Arithmetic Logic Unit (ALU)**: A simple ALU implementation.
-- **Multiplexer (MUX)**: A 16-to-1 multiplexer.
-- **Other Digital Logic**: Additional examples and experiments in Verilog.
+## Modules Overview
 
-## Getting Started
+This repository includes the following Verilog modules and supporting files:
+
+- **Arithmetic Logic Unit (ALU):** Implements arithmetic and logical operations such as addition, subtraction, AND, OR, and XOR.
+- **Multiplexer (MUX):** A 16-to-1 multiplexer designed for efficient data selection.
+- **Hello World Example:** A simple introductory Verilog module for beginners.
+- **Testbenches:** Accompanying each module to verify its functionality.
+- **Simulation Outputs (.vcd):** Visualizes the simulation results using waveform viewers.
+
+## Key Features
+
+1. **Testbench Integration:** Each module has a dedicated testbench for verifying functionality and ensuring correctness.
+2. **Simulation Results:** Waveform files (*.vcd) are included for visual debugging and performance validation.
+3. **Combinational and Sequential Designs:** Covers basic and advanced digital design concepts.
+4. **Beginner-Friendly Examples:** Includes simple modules to get started with Verilog.
+
+## Usage and Workflow
+
+To work with the modules and testbenches:
 
 ### Prerequisites
-To work with the files in this repository, you will need:
-- A Verilog simulation tool (e.g., **ModelSim**, **Xilinx Vivado**, **Icarus Verilog**, or **Synopsys VCS**)
-- A text editor or IDE (e.g., **VS Code** with Verilog extensions)
+- Install a Verilog simulator such as **Icarus Verilog**, **ModelSim**, or **Xilinx Vivado**.
+- Use a text editor or IDE with Verilog support (e.g., **VS Code** with Verilog extensions).
 
-### How to Use
+### Steps to Use
 1. Clone the repository to your local system:
    ```bash
-   git clone https://github.com/sohampalkrit/verilog-projects.git
-   ```
-2. Open the desired module and its testbench in your Verilog simulator.
-3. Run the simulation to observe the behavior and waveforms.
-
-## Learning Objectives
-
-This repository is suitable for:
-- Beginners learning the basics of Verilog.
-- Students practicing digital design concepts such as combinational and sequential logic.
-- Engineers exploring simulation and testing techniques.
-
-## Contributions
-
-Contributions, suggestions, and feedback are welcome! If you find any issues or want to add new examples, feel free to open a pull request or reach out.
-
-## License
-
-This repository is open-source and available for educational purposes. Please credit this repository if you use it for projects or learning.
+   git clone https://github.com/sohampalkrit/digital-systems-repo.git
